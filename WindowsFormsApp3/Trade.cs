@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp3
 {
-    public partial class Instrument : Form
+    public partial class Trade : Form
     {
-        public Instrument()
+        public Trade()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            //call save data service
         }
     }
 }
